@@ -17,7 +17,7 @@ echo "Repo init success"
 echo "=================="
 
 #local_manifest
-https://github.com/BalsszZoldyck/local_manifests -b havoc .repo/local_manifests
+git clone -b havoc https://github.com/BalsszZoldyck/local_manifests .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
