@@ -11,13 +11,13 @@ echo "lib6 >> lib5  "
 echo "============="
 
 #repo init
-repo init -u https://github.com/Havoc-OS-Revived/android_manifest.git -b eleven --git-lfs
+repo init -u repo init -u https://github.com/StatiXOS/android_manifest.git -b vic-qpr1
 echo "=================="
 echo "Repo init success"
 echo "=================="
 
 #local_manifest
-git clone -b havoc https://github.com/BalsszZoldyck/local_manifests .repo/local_manifests
+git clone -b statix https://github.com/BalsszZoldyck/local_manifests .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
@@ -38,4 +38,4 @@ echo "======= Export Done ======"
 echo "====== Envsetup Done ======="
 
 #build
-lunch havoc_X00TD-userdebug && make installclean && m bacon
+lunch statix_X00TD-bp1a-userdebug && make installclean && m bacon
