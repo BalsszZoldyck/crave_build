@@ -38,4 +38,4 @@ echo "======= Export Done ======"
 echo "====== Envsetup Done ======="
 
 #build
-lunch statix_X00TD-bp1a-userdebug && make installclean && m bacon
+lunch statix_X00TD-ap4a-userdebug && make installclean && m bacon
